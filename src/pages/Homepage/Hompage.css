@@ -1,0 +1,18 @@
+.images{
+    animation: anim 2s infinite alternate;
+}
+
+.Head{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+.dot{
+    color: #274C77;
+}
+
+@keyframes anim {
+    0%{
+        background: url("../../assets/1.png");
+    }
+}

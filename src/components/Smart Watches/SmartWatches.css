@@ -1,0 +1,18 @@
+.sw{
+    background-color: #E7ECEF;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.card{
+    /* background-color: #E7ECEF; */
+    border-radius: 20px;
+}
+
+img{
+    transition: 1s;
+}

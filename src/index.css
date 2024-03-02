@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #E7ECEF;
+    /* background-image: url(https://images.unsplash.com/photo-1451477334999-a9321157a431?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1516461240763-822a87484851?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.images{
+    height: 500px;
+    animation: anim 7s infinite alternate-reverse;
+}
+
+@keyframes anim {
+    0%{
+        background-image: url("../src/assets/1.png");
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url("../src//assets/2.png");
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url("../src//assets/3.png");
+        background-position: center;
+        background-size: cover;
+    }
+}

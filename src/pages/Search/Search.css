@@ -1,0 +1,137 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-btn {
+    background-color: #274C77;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    width: 100%;
+  }
+  
+  .search-results ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search-results li {
+    margin-bottom: 10px;
+  }
+  
+/* CSS for responsiveness */
+@media (max-width: 991px) {
+    .col-md-3,
+    .col-lg-2 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+/* CSS for styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.list-unstyled {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-warning {
+    color: #ffc107;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust as needed */
+}
+
+@media (max-width: 991px) {
+    .col-md-3,
+    .col-lg-2,
+    .col-md-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+.sort-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sort-dropdown:hover {
+    border-color: #007bff;
+}
+
+.sort-dropdown:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+.category-filter {
+    margin-top: 20px;
+  }
+  
+  .category-label {
+    margin-right: 10px;
+  }
+  
+  .category-options label {
+    margin-right: 15px;
+    font-size: 16px;    
+  }
+  
+  .category-options input[type="radio"] {
+    margin-right: 5px;
+  }
+  
